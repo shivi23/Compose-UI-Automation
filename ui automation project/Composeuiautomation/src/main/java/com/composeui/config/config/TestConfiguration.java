@@ -25,6 +25,7 @@ public class TestConfiguration
 		return properties.getString(key);
 	}
 
+       //webdriver instance creation
 	public static WebDriver getDriver()
 	{
 		WebDriver driver;
